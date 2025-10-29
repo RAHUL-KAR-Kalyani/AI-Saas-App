@@ -12,7 +12,7 @@ import userRouter from './routes/userRoutes.js';
 const app = express();
 const PORT = process.env.PORT;
 const corsOption = {
-	origin: 'http://localhost:5173',
+	origin: 'https://ai-saas-app-9p7q.onrender.com',
 	credentials: true
 }
 
